@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="classes" name="/Users/niveditagan/MyGitRepo/DockerSample(failed)" verbose="0">
+    <classes>
+      <class name="org.example.FirefoxStabndAloneTest">
+        <methods>
+          <include name="triggerChrome"/>
+          <include name="startDockerScale"/>
+          <include name="stopDocker"/>
+        </methods>
+      </class> <!-- org.example.FirefoxStabndAloneTest -->
+      <class name="org.example.FirefoxStabndAloneTest2">
+        <methods>
+          <include name="triggerChrome2"/>
+        </methods>
+      </class> <!-- org.example.FirefoxStabndAloneTest2 -->
+      <class name="org.example.FirefoxStabndAloneTest1">
+        <methods>
+          <include name="triggerChrome1"/>
+        </methods>
+      </class> <!-- org.example.FirefoxStabndAloneTest1 -->
+    </classes>
+  </test> <!-- /Users/niveditagan/MyGitRepo/DockerSample(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
